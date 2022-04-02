@@ -25,10 +25,10 @@ local Library = {
     HudRegistry = {};
 
     FontColor = Color3.fromRGB(255, 255, 255);
-    MainColor = Color3.fromRGB(102, 9, 9);
-    BackgroundColor = Color3.fromRGB(38, 10, 12);
-    AccentColor = Color3.fromRGB(46, 6, 8);
-    OutlineColor = Color3.fromRGB(84, 9, 13);
+    MainColor = Color3.fromRGB(28, 28, 28);
+    BackgroundColor = Color3.fromRGB(20, 20, 20);
+    AccentColor = Color3.fromRGB(208, 255, 0);
+    OutlineColor = Color3.fromRGB(50, 50, 50);
 
     Black = Color3.new(0, 0, 0);
 
@@ -80,7 +80,7 @@ function Library:CreateLabel(Properties, IsHud)
         BackgroundTransparency = 1;
         Font = Enum.Font.Code;
         TextColor3 = Library.FontColor;
-        TextSize = 18;
+        TextSize = 16;
         TextStrokeTransparency = 0;
     });
 
